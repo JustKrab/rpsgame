@@ -55,7 +55,7 @@ public class Main {
             System.out.println("Need more arguments");
             System.exit(1);
         }
-        if (arguments.size() == 0) {
+        if (arguments.size()%2 == 0) {
             System.out.println("Need an odd number");
             System.exit(1);
         }
